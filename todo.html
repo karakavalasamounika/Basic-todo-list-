@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <title>to-do list</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>to-do list</h1>
+				<div>
+					<div class="border1"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="helpText col-12">
+				<p class="textcolor">Click the item to mark it as complete.</p>
+				<p class="textcolor" id="mar">Click the "X" to remove the item from your list.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-12">
+				<input id="userInp" type="text" placeholder="Add item" maxlength="30">
+				<button id="enter" class="btn btn-primary">ADD</button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript" src="todo.js"></script>
+</body>
+</html>
